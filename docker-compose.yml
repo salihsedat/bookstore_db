@@ -13,7 +13,7 @@ services:
       - clarusnet
 
   myapp:
-    image: arslantobe/bookstoreapi:latest
+    image: salihss/bookstoreapi:latest
     container_name: myapp
     restart: always
     depends_on:
